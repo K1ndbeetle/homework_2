@@ -15,5 +15,15 @@ public class Main {
         System.out.println("Зачение переменной pears с типом long равно " + pears);
         System.out.println("Зачение переменной pineapples с типом float равно " + pineapples);
         System.out.println("Зачение переменной kiwi с типом double равно " + kiwi );
+
+        //task №2
+        float float1 = 27.12F;
+        long long1 = 987678965549L;
+        double double1 = 2.786;
+        boolean boolean1 = false;
+        short short2 = 569;
+        short short3 = -159;
+        int int1 = 27897;
+        byte byte2 = 67;
     }
 }
