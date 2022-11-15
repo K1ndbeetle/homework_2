@@ -58,5 +58,20 @@ public class Main {
         int totalWhitePaint = totalClassroomInSchool * whitePaint;
         int totalBrownPaint = totalClassroomInSchool * brownPaint;
         System.out.println("В школе, где " + totalClassroomInSchool + " классов, нужно " + totalWhitePaint + " банок белой краски и " + totalBrownPaint + " банок коричневой краски");
+
+        //task №6
+        System.out.println("Задача №6");
+        int oneBanana = 80; //гр
+        float oneHundredMlMilk = 105; //гр
+        int oneIceCream = 100; //гр
+        int oneEgg = 70; //гр
+        int fiveBananas = oneBanana * 5;
+        float twoHundredMlMilk = oneHundredMlMilk / 100 * 200;
+        int twoIceCream = oneIceCream * 2;
+        int fourEggs = oneEgg * 4;
+        int oneKg = 1000; //1 кг = 1000 гр
+        float breakfastGr = fiveBananas + twoHundredMlMilk + twoIceCream + fourEggs;
+        float breakfastKg = breakfastGr / oneKg;
+        System.out.println("Общий вес завтрака " + breakfastKg + " кг");
     }
 }
