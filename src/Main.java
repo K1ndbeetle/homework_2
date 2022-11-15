@@ -48,5 +48,15 @@ public class Main {
         System.out.println("За " + threeDays + " минут машина произвела бутылок " + threeDays * bottlesPerMinute + " штук");
         int oneMonth = day * 30;
         System.out.println("За " + oneMonth + " минут машина произвела бутылок " + oneMonth * bottlesPerMinute + " штук");
+
+        //task №5
+        System.out.println("Задача №5");
+        int totalPaint = 120;
+        int whitePaint = 2;
+        int brownPaint = 4;
+        int totalClassroomInSchool = totalPaint / (whitePaint + brownPaint);
+        int totalWhitePaint = totalClassroomInSchool * whitePaint;
+        int totalBrownPaint = totalClassroomInSchool * brownPaint;
+        System.out.println("В школе, где " + totalClassroomInSchool + " классов, нужно " + totalWhitePaint + " банок белой краски и " + totalBrownPaint + " банок коричневой краски");
     }
 }
