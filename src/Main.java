@@ -34,5 +34,19 @@ public class Main {
         int sheets = 480;
         int sheetsPerStudent = sheets / (ludmilaPavlovna + annaSergeevna + ekaterinaAndreevna);
         System.out.println("На каждого ученика рассчитано " + sheetsPerStudent + " листов бумаги" );
+
+        //task №4
+        System.out.println("Задача №4");
+        int bottles = 16;
+        int minutes = 2;
+        int bottlesPerMinute = bottles / minutes;
+        int twentyMinutes = 20;
+        System.out.println("За " + twentyMinutes + " минут машина произвела бутылок " + twentyMinutes * bottlesPerMinute + " штук");
+        int day = 24 * 60;
+        System.out.println("За " + day + " минут машина произвела бутылок " + day * bottlesPerMinute + " штук");
+        int threeDays = day * 3;
+        System.out.println("За " + threeDays + " минут машина произвела бутылок " + threeDays * bottlesPerMinute + " штук");
+        int oneMonth = day * 30;
+        System.out.println("За " + oneMonth + " минут машина произвела бутылок " + oneMonth * bottlesPerMinute + " штук");
     }
 }
