@@ -25,5 +25,14 @@ public class Main {
         short short3 = -159;
         int int1 = 27897;
         byte byte2 = 67;
+
+        //task №3
+        System.out.println("Задача №3");
+        int ludmilaPavlovna = 23;
+        int annaSergeevna = 27;
+        int ekaterinaAndreevna = 30;
+        int sheets = 480;
+        int sheetsPerStudent = sheets / (ludmilaPavlovna + annaSergeevna + ekaterinaAndreevna);
+        System.out.println("На каждого ученика рассчитано " + sheetsPerStudent + " листов бумаги" );
     }
 }
