@@ -73,5 +73,20 @@ public class Main {
         float breakfastGr = fiveBananas + twoHundredMlMilk + twoIceCream + fourEggs;
         float breakfastKg = breakfastGr / oneKg;
         System.out.println("Общий вес завтрака " + breakfastKg + " кг");
+
+        //task №7
+        System.out.println("Задача №7");
+        int loseWeight = 7;
+        float kg = 1000;
+        int weight250Gr = 250;
+        int weight500Gr = 500;
+        float weight250Kg = weight250Gr / kg;
+        float weight500Kg = weight500Gr / kg;
+        float minDays = loseWeight / weight250Kg;
+        float maxDays = loseWeight / weight500Kg;
+        float averageDays = (minDays + maxDays) / 2;
+        System.out.println("Если худеть на 250 грамм каждый день, понадобится " + minDays + " дней!");
+        System.out.println("Если худеть на 500 грамм каждый день, понадобится " + maxDays + " дней!");;
+        System.out.println("Среднее количество дней для похудения " + averageDays);
     }
 }
