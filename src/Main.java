@@ -88,5 +88,20 @@ public class Main {
         System.out.println("Если худеть на 250 грамм каждый день, понадобится " + minDays + " дней!");
         System.out.println("Если худеть на 500 грамм каждый день, понадобится " + maxDays + " дней!");;
         System.out.println("Среднее количество дней для похудения " + averageDays);
+
+        //task №8
+        System.out.println("Задача №8");
+        float masha = 67760;
+        float denis = 83690;
+        float kristina = 76230;
+        float masha10 = masha / 100 * 10;
+        float denis10 = denis / 100 * 10;
+        float kristina10 = kristina / 100 * 10;
+        float yearMasha = masha10 * 12;
+        float yearDenis = denis10 * 12;
+        float yearKristina = kristina10 * 12;
+        System.out.println("Маша теперь получает " + (masha + masha10) + " рублей. Годовой доход вырос на " + yearMasha + " рублей.");
+        System.out.println("Денис теперь получает " + (denis + denis10) + " рублей. Годовой доход вырос на "  + yearDenis + " рублей.");
+        System.out.println("Кристина теперь получает " + (kristina + kristina10) + " рублей. Годовой доход вырос на " + yearKristina + " рублей.");
     }
 }
